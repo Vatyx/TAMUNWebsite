@@ -1,4 +1,7 @@
-$('#back').hide();
+$(document).ready(function()
+{
+	setInterval(function () {$('#back').fadeOut();}, 500);
+})
 $('#topLogoWhite').hide();
 //setInterval(function () {$('#back').fadeOut();}, 3000);
 
