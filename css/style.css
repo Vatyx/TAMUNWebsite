@@ -104,19 +104,20 @@ height: 100%;
 
 #text-subtitle {
   font-family: NEOTERIC;
-  font-size: 75px;
+  font-size: 50px;
   color: black;
 }
 
 .inside-first {
-  padding: 200px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 #text-const {
   font-family: NEOTERIC;
-  font-size: 40px;
+  font-size: 45px;
   color: black;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 0px;
   -webkit-text-stroke-color: black;
 }
 
