@@ -1168,3 +1168,13 @@ body.vintage .testimonials .testimonials-carousel .owl-controls .owl-next {
 .secretariat {
   padding:25px 10px;
 }
+
+#back {
+    background-color:#1D1E1D;
+    position:fixed;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    z-index:1000000;
+}

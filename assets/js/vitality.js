@@ -3,6 +3,11 @@
  * Copyright 2013-2015 Start Bootstrap Themes
  * To use this theme you must have a license purchased at WrapBootstrap (https://wrapbootstrap.com)
  */
+$(document).ready(function()
+{
+    setInterval(function () {$('#back').fadeOut();}, 700);
+})
+
 $('#topLogoWhite').hide();
 (function($) {
     "use strict"; // Start of use strict
